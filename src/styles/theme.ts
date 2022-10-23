@@ -15,6 +15,8 @@ declare module "@mui/material/styles" {
     black1000: string;
 
     white1000: string;
+
+    red800: string;
   }
 
   interface Theme {
@@ -31,10 +33,13 @@ declare module "@mui/material/styles" {
       black1000: string;
 
       white1000: string;
+
+      red800: string;
     };
     typography: {
       fontSize: {
         xs: string;
+        "2xs": string;
         sm: string;
         md: string;
         lg: string;
@@ -74,6 +79,7 @@ declare module "@mui/material/styles/createTypography" {
   interface TypographyOptions {
     fontSize: {
       xs: string;
+      "2xs": string;
       sm: string;
       md: string;
       lg: string;
@@ -91,8 +97,8 @@ declare module "@mui/material/styles/createTypography" {
 const theme = createTheme({
   palette: {
     gray100: "#e1e1e6",
-    gray200: "#e1e1e6",
-    gray400: "#e1e1e6",
+    gray200: "#8F8F8F",
+    gray400: "#494949",
 
     cyan400: "#68E7EF",
     cyan700: "#00F0FF",
@@ -102,10 +108,13 @@ const theme = createTheme({
     black1000: "#000000",
 
     white1000: "#FFFFFF",
+
+    red800: "#D60000",
   },
   typography: {
     fontSize: {
       xs: "0.5rem",
+      "2xs": "0.625rem",
       sm: "0.75rem",
       md: "0.875rem",
       lg: "1rem",

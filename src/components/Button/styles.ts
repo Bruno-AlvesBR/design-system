@@ -10,7 +10,7 @@ export const ButtonUi = styled(Button)(({ theme }) => ({
   fontWeight: theme?.typography?.fontWeight?.lg,
   padding: "0.75rem 0",
 
-  "&:hover": {
+  "&:hover, &:focus": {
     backgroundColor: theme?.palette?.cyan400,
   },
 }));

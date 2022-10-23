@@ -28,10 +28,10 @@ export const Email: StoryObj<IInput> = {
 export const EmailError: StoryObj<IInput> = {
   args: {
     inputUI: {
-      placeholder: "Insira seu nome...",
-      type: "name",
+      placeholder: "Insira seu email...",
+      type: "email",
     },
-    typeUI: "name",
+    typeUI: "email",
     hasError: true,
   },
 };
