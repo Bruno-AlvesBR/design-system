@@ -7,4 +7,5 @@ export interface IAnchor extends LinkProps {
   weightUI?: "sm" | "md" | "lg";
   nextLink?: ElementType<Element> | undefined;
   colorUI?: IColors;
+  isSelected?: boolean;
 }

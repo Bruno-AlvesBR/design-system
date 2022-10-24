@@ -1,6 +1,6 @@
-import { IAnchor } from "@/interfaces/IAnchor";
 import Link from "@mui/material/Link";
 
+import { IAnchor } from "@/interfaces/IAnchor";
 import { AnchorUI } from "./styles";
 
 const Anchor: React.FC<IAnchor> = ({

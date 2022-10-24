@@ -14,10 +14,19 @@ export default {
   ),
 } as Meta<IAnchor>;
 
-export const v1: StoryObj<IAnchor> = {
+export const AnchorDefault: StoryObj<IAnchor> = {
   args: {
     children: "ver mais",
     sizeUI: "md",
     weightUI: "sm",
+  },
+};
+
+export const AnchorSelected: StoryObj<IAnchor> = {
+  args: {
+    children: "ver mais",
+    sizeUI: "md",
+    weightUI: "sm",
+    isSelected: true,
   },
 };
