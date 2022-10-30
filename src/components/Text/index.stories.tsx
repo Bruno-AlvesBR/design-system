@@ -23,3 +23,13 @@ export const v1: StoryObj<IText> = {
     weightUI: "md",
   },
 };
+
+export const Selected: StoryObj<IText> = {
+  args: {
+    children: "text",
+    sizeUI: "md",
+    colorUI: "gray100",
+    weightUI: "md",
+    isSelected: true,
+  },
+};
